@@ -15,3 +15,12 @@ const App = () => {
   )
 }
 ```
+
+## Props
+- One of the Most well know way in component based architecture.
+- Most of the frameworks support this way.
+- Rely on frameworks ways to avoid prop drilling issues.
+
+## Cons
+- Add a lot of coupling between the Mfes and the container app. 
+- Hard to achieve if two MFEs are not using the same framework

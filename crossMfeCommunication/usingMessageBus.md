@@ -93,3 +93,11 @@ const Cart = ({ messageBus }) => {
   )
 };
 ```
+
+## Props
+- A custom made solution equivalent to message bus in micro services implementation.
+- High setup cost but easy to scale.
+- Libraries like [Postal.js](https://github.com/postaljs/postal.js) available in the market
+
+## Cons
+- Hard to make all the microfrontends team follow the same pattern

@@ -65,3 +65,14 @@ const Cart = () => {
   )
 };
 ```
+
+## Pros
+- Inbuilt solution in browser platform
+- Very much close to asynchronous event based architecture in microservices world. You can publish an event and subscribe to it.
+- High setup cost but easy to scale.
+- Build a generic mechanism which all the mfe teams can follow.
+
+## Cons
+- Not achievable in case of mobile micro frontends
+- Can work only if the cross communication is within the same page as events need to be subscribed before publishing
+- Be careful when using events across pages. The event needs to get unsubscribed on unmount of a Component.

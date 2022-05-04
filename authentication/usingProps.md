@@ -25,3 +25,7 @@ const App = () => {
   )
 }
 ```
+
+## Cons
+- Container app is handling the token which should be a responsibility of an another micro frontend
+- Mutiple auth tokens can exist at the same time in the app.
