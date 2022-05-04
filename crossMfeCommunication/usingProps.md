@@ -24,3 +24,4 @@ const App = () => {
 ## Cons
 - Add a lot of coupling between the Mfes and the container app. 
 - Hard to achieve if two MFEs are not using the same framework
+- Performance impact as multiple unwanted layers will re render.
